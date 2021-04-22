@@ -26,6 +26,10 @@ def create_app(test_config=None):
     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS,PATCH')
     return response
 
+
+  @app.route('/')
+  def home():
+    return "Excited!"
   #  Creating Dummy data for Testing
   # If you are going to test the application, please run this API
   # it will drop all table
@@ -273,5 +277,5 @@ def create_app(test_config=None):
 
 app = create_app()
 
-# if __name__ == '__main__':
-#   app.run(host='0.0.0.0', port=8080, debug=True)
+if __name__ == '__main__':
+  app.run(host='0.0.0.0', port=8080, debug=True)
