@@ -1,4 +1,4 @@
-export DATABASE_URL="postgresql://postgres:root@localhost:5432/capstone"
+export DATABASE_URL="postgres://rspmepcpiupcef:2fc105cf1daa8ffc7e8a5c64fc649a8f24922f8bffee75479c5ee1cc997736cc@ec2-174-129-225-160.compute-1.amazonaws.com:5432/daibav9vp5lf3e"
 export AUTH0_DOMAIN="abhifsnd.us.auth0.com"
 export API_AUDIENCE="castingagency"
 export CLIENT_ID='JKHOYI250mUtRTu7DmBeoh9AXrBKJ5cR'
