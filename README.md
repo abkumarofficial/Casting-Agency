@@ -47,10 +47,10 @@ From within the project directory first ensure you are working using your create
 - To run the **development** server, execute:
 `bash setup.sh` 
 but before running , uncomment the following lines
-# export FLASK_APP=app.py
-# export FLASK_DEBUG=true
-# export FLASK_ENV=development
-# flask run --reload
+export FLASK_APP=app.py
+export FLASK_DEBUG=true
+export FLASK_ENV=development
+flask run --reload
 
 ## Testing
 There is a Postman Json File , just import that in Postman and run the test
