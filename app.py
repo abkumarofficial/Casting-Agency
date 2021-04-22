@@ -28,8 +28,10 @@ def create_app(test_config=None):
 
 
   @app.route('/')
-  def home():
-    return "Excited!"
+  def index():
+    return jsonify({
+    'message': 'Welcome to the casting agency'
+    })
   #  Creating Dummy data for Testing
   # If you are going to test the application, please run this API
   # it will drop all table
